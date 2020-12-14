@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: ;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    line-height: 1;
+    background-color: var(--primary-color);
+    font-family: 'Source Sans Pro';
+}
+
+.home_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 200px;
+}
