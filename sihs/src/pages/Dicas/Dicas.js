@@ -1,18 +1,18 @@
-import React from 'react';
-import Banner from '../../components/Banner/Banner';
+import { useState } from 'react';
 import Header from '../../components/Header/Header';
 import HomeCard from '../../components/HomeCard/HomeCard';
+import peso from '../Home/images/peso.png';
+import folha from '../Home/images/folha.png';
+import estrela from '../Home/images/estrela.png';
+import './Dicas.css'
 import Footer from '../../components/Footer/Footer';
-import peso from './images/peso.png';
-import folha from './images/folha.png';
-import estrela from './images/estrela.png';
-import './Home.css'
 
-const PagesHome = () => {
+
+const PagesDicas = () => {
+
     return (
         <>
-            <Header/>
-            <Banner/>
+            <Header />
             <div className ="home_cards">
                 <HomeCard
                     image={peso}
@@ -35,4 +35,4 @@ const PagesHome = () => {
     );
 }
 
-export default PagesHome;
+export default PagesDicas;

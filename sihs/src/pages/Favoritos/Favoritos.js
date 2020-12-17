@@ -1,16 +1,18 @@
 import { useState } from 'react';
-import { info } from '../../data';
+import { useEffect } from 'react';
 import FavoritoCard from '../../components/FavoritoCard/FavoritoCard';
 import Header from '../../components/Header/Header';
+import { info } from '../../data';
 
-const PagesDicasEsporte = () => {
+const PagesFavoritos = () => {
     const inicial = JSON.parse(localStorage.getItem("meusFavoritos"))
     const [favoritos, setFavoritos] = useState(inicial);
+
     return (
         <>
-            <Header />
+            <Header/>
             <div>
-                {info.map(i => {
+                {favoritos.map(i => {
                     return (
                         <FavoritoCard
                         dica = {i}
@@ -18,7 +20,7 @@ const PagesDicasEsporte = () => {
                         texto={i.texto}
                         favoritos={favoritos}
                         setFavoritos={setFavoritos}
-                        estado={true}
+                        estado={false}
                     />)
                 })}
             </div>
@@ -26,4 +28,4 @@ const PagesDicasEsporte = () => {
     );
 }
 
-export default PagesDicasEsporte;
+export default PagesFavoritos;

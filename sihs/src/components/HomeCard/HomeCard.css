@@ -1,13 +1,14 @@
 .home_card{
     width: 400px;
     display: flex;
-    margin: 56px auto;
-    justify-content: center;
+    margin: 18px 26px;
     flex-direction: column;
     align-items: center;
 }
 
-.home_card_image {
+.home_card_image img{
+    height: 180px;
+    padding: 50px 0px;
 
 }
 
@@ -22,13 +23,17 @@
 }
 
 .home_card_info p{
-    color: #5d5d5d;
-    padding-bottom: 40px;
+    color: #696969;
+    padding-bottom: 62px;
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 18px;
+
 }
 
 .button_link{
     font-size: 24px;
-    background-color: #52c252;
+    background-color: #232329;
     color: #ffffff;
     padding: 14px 100px;
     text-decoration: none;
@@ -38,8 +43,6 @@
 }
 
 .button_link:hover{
-    background-color: #ffffff;
-    border: 2px solid #52c252;
-    color: #52c252;
-    box-shadow: 6px 6px #52c252;
+    background-color: #52c252;
+    color: #ffffff;
 }

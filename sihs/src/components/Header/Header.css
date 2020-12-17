@@ -5,18 +5,23 @@
 }
 
 .logo{
-    padding-top: 120px;
+    padding-top: 94px;
     margin-bottom: 50px;
-    color: #52c252;
+    color: #232329;
     font-weight: 700;
     font-size: 50px;
+    letter-spacing: 12px;
+
+}
+.menu{
+    padding-bottom: 16px;
 }
 
 .menu-link{
     text-decoration: none;
     padding: 10px 36px;
     color: #5d5d5d;
-    margin: 0px 16px; 
+    margin: 0px 2px;
     font-style: italic;
     font-size: 20px;
 }
@@ -28,5 +33,6 @@
 
 .menu-link:active{
     background-color: #52c252;
-    color: #ffff;
+    color: #ffff; 
+    font-weight: 700;
 }

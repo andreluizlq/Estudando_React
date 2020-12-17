@@ -1,0 +1,22 @@
+.favorito_card{
+    width: 400px;
+    display: flex;
+    margin: 52px 26px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favorito_card_info {
+    text-align: center;
+}
+
+.favorito_card_info h2{
+    color: #252122;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.favorito_card_info p{
+    color: #696969;
+    padding-bottom: 40px;
+}
